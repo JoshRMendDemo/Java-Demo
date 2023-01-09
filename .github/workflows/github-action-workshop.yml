@@ -8,8 +8,8 @@ jobs:
   build:
     env:
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      WS_APIKEY: ${{secrets.APIKEY}}
-      WS_USERKEY: ${{secrets.USERKEY}}
+      WS_APIKEY: 00bc7a3a0d014da9a8e85206a0cbcb8b0f0b1ee07ea345cda4eeec2a174dc7ac
+      WS_USERKEY: c1406e5e9df44cb9a2643eccd994930b89b5d5d66acd46dd8abaf72afa57bf7d
       WS_WSS_URL: https://saas.whitesourcesoftware.com/agent
       WS_PRODUCTNAME: GH_${{github.event.repository.name}}
       WS_PROJECTNAME: ${{github.event.repository.name}}_${{github.ref_name}}_Prioritize
