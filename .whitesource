@@ -13,7 +13,7 @@
     "displayMode": "diff"
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW",
+    "minSeverityLevel": "MED",
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
