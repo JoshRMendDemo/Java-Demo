@@ -1,3 +1,7 @@
 {
-  "settingsInheritedFrom": "JoshRMendDemo/whitesource-config@main"
+  "settingsInheritedFrom": "JoshRMendDemo/whitesource-config@main",
+    "scanSettings": {
+    "configMode": "LOCAL",
+    "configExternalURL": ""
+  }
 }
