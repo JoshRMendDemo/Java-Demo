@@ -2,6 +2,7 @@
   "scanSettings": {
     "configMode": "LOCAL",
     "configExternalURL": "",
+    "enableLicenseViolations": true,
     "baseBranches": []
   },
   "scanSettingsSAST": {
