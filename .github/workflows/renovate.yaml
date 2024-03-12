@@ -6,6 +6,10 @@ on:
 
 jobs:
   build:
+    env:
+      RENOVATE_PLATFORM: github
+      RENOVATE_ENDPOINT: 'https://github.com/api/v3'
+      RENOVATE_TOKEN: $(System.AccessToken)
     runs-on: ubuntu-latest
 
     steps:
