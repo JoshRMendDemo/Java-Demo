@@ -1,0 +1,19 @@
+name: Whitesource Prioritize Java with Maven & Github Issue comments
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node
+        uses: actions/setup-node@v4.0.2
+      - name: Run Renovate
+        run: |
+          git config --global user.email 'bot@renovateapp.com'
+          git config --global user.name 'Renovate Bot'
+          npx renovate
