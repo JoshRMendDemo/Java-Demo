@@ -16,8 +16,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Set up Node
         uses: actions/setup-node@v4.0.2
-      - name: Run Renovate --autodiscover
+      - name: Run Renovate
         run: |
           git config --global user.email 'bot@renovateapp.com'
           git config --global user.name 'Renovate Bot'
-          npx renovate
+          npx renovate --autodiscover
