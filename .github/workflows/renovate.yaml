@@ -8,7 +8,6 @@ jobs:
   build:
     env:
       RENOVATE_PLATFORM: github
-      RENOVATE_ENDPOINT: 'https://github.com/api/v3'
       RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
       LOG_LEVEL: 'debug'
     runs-on: ubuntu-latest
