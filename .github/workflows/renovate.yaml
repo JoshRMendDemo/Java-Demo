@@ -7,9 +7,10 @@ on:
 jobs:
   build:
     env:
-      RENOVATE_PLATFORM: github
+      RENOVATE_PLATFORM: 'github'
       RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
       LOG_LEVEL: 'debug'
+      RENOVATE_REPOSITORIES: '[JoshRMendDemo/Java-Demo]'
     runs-on: ubuntu-latest
 
     steps:
@@ -20,4 +21,4 @@ jobs:
         run: |
           git config --global user.email 'bot@renovateapp.com'
           git config --global user.name 'Renovate Bot'
-          npx renovate --autodiscover
+          npx renovate
