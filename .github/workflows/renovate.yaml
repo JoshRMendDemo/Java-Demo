@@ -12,8 +12,6 @@ jobs:
       RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
       LOG_LEVEL: 'debug'
       RENOVATE_AUTODISCOVER: true
-      RENOVATE_REQUIRE_CONFIG: 'ignored'
-      RENOVATE_ONBOARDING: false
     runs-on: ubuntu-latest
 
     steps:
