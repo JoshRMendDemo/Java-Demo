@@ -12,6 +12,7 @@ jobs:
       RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
       LOG_LEVEL: 'debug'
       RENOVATE_AUTODISCOVER: true
+      RENOVATE_PR_HOURLY_LIMIT: 0
     runs-on: ubuntu-latest
 
     steps:
