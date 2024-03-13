@@ -11,7 +11,6 @@ jobs:
       RENOVATE_PLATFORM: 'github'
       RENOVATE_TOKEN: ${{secrets.RENOVATE_TOKEN}}
       LOG_LEVEL: 'debug'
-      RENOVATE_ONBOARDING: false
       RENOVATE_AUTODISCOVER: true
     runs-on: ubuntu-latest
 
