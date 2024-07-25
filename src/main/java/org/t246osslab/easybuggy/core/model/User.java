@@ -6,6 +6,7 @@ import java.util.Date;
 public class User implements Serializable{
     
     private static final long serialVersionUID = 1L;
+    private String test = null;
     private String userId = null;
     private String name = null;
     private String password = null;
