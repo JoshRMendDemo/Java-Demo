@@ -4,6 +4,6 @@
     "configMode": "LOCAL",
     "enableLicenseViolations": true,
     "baseBranches": ["test"],
-    "enableReachability": true
+    "enableReachability": false
     }
 }
