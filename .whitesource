@@ -3,7 +3,7 @@
     "scanSettings": {
     "configMode": "LOCAL",
     "enableLicenseViolations": true,
-    "baseBranches": [],
+    "baseBranches": ["test"],
     "enableReachability": true
     }
 }
